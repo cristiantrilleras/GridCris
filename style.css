@@ -448,6 +448,10 @@ footer{
 
 
 @media screen and (max-width:600px) {
+  .menu {
+    flex-direction: column;
+  }
+
   .grid-azul {
     padding: 5% 2% 5%;
     justify-content: space-evenly;
@@ -495,6 +499,10 @@ footer{
 
 @media screen and (max-width:350px){
 header{
+  flex-direction: column;
+}
+
+.menu {
   flex-direction: column;
 }
 
