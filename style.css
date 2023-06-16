@@ -440,16 +440,30 @@ footer{
     height: auto;
   }
  
-
+  .listafooter{
+    flex-direction: column;
+}
 }
 
 
 
 @media screen and (max-width:600px) {
+  .grid-azul {
+    padding: 5% 2% 5%;
+    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: rgb(29, 221, 255);
+    color: white;
+    grid-template-rows: 1fr 1fr;
+}
+
   .galeria{ 
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 2px;
+    row-gap: 2px;
   }
 
   .menu2{
@@ -462,7 +476,19 @@ footer{
     flex-direction: column;
   }
 
+  .submenu2 {
+    display: flex;
+    flex-direction: column;
+  }
+
   
+  .contact{
+    height: auto;
+  }
+  
+  .listafooter{
+    flex-direction: column;
+}
 }
 
 
